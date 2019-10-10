@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.outerContainer {
+    background-color: white;
+    border: 1px dotted black;
+    padding: 24px;
+}
+
+.innerContainer {
+    background-color: white;
+    border: 1px dotted black;
+    height: 40px;
+}
+
+.innerContainer .topHeaderLeftText {
+    color: #2f7cc8;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: middle;
+}
+
+.innerContainer .left {
+    float: left;
+}
+
+.innerContainer .right {
+    float: right;
+}
+
+.innerContainer .clearfix {
+    clear: both;
+}
+
+.innerContainer .headerImage {
+    vertical-align: middle;
+}

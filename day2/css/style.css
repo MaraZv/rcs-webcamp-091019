@@ -1,15 +1,32 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
+    margin: 0;
+}
+
+p {
     margin: 0;
 }
 
 .outerContainer {
     background-color: white;
+    margin: 0;
+}
+
+.outerContainer.jumbo, 
+.outerContainer.jumbo .innerContainer {
+    background-color: transparent;
 }
 
 .innerContainer {
     width: 960px;
     margin: 0 auto;
     background-color: white;
+}
+
+.innerContainer.topHeader {
     height: 40px;
 }
 
@@ -17,7 +34,6 @@ body {
     display: inline-block;
     color: #2f7cc8;
     font-size: 23px;
-    font-family: 'Open Sans', sans-serif;
     padding: 4px;
 }
 
@@ -41,6 +57,35 @@ body {
 
 .topBackground {
     width: 100%;
+    top: 0;
     position: fixed;
     z-index: -1;
+}
+
+.buttonContainer {
+    margin: 40px auto;
+}
+
+.button {
+    display: inline-block;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #44f;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 0 0 0 40px rgba(0, 0, 0, 0.4);
+    margin: 40px;
+}
+
+.innerContainer.jumbo {
+    text-align: center;
+}
+
+.innerContainer.jumbo p {
+    color: white;
 }

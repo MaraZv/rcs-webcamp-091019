@@ -4,21 +4,21 @@ body {
 
 .outerContainer {
     background-color: white;
-    border: 1px dotted black;
-    padding: 24px;
 }
 
 .innerContainer {
+    width: 960px;
+    margin: 0 auto;
     background-color: white;
-    border: 1px dotted black;
     height: 40px;
 }
 
 .innerContainer .topHeaderLeftText {
+    display: inline-block;
     color: #2f7cc8;
     font-size: 23px;
     font-family: 'Open Sans', sans-serif;
-    vertical-align: middle;
+    padding: 4px;
 }
 
 .innerContainer .left {
@@ -33,6 +33,14 @@ body {
     clear: both;
 }
 
-.innerContainer .headerImage {
-    vertical-align: middle;
+.innerContainer .headerImages {
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.topBackground {
+    width: 100%;
+    position: fixed;
+    z-index: -1;
 }

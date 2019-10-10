@@ -1,0 +1,38 @@
+h1 {
+    color: #85004d;
+    border-bottom: 1px solid #85004d;
+    width: 50%;
+    margin: 0 auto 24px;
+}
+
+.container {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+td {
+    vertical-align: top;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+img {
+    width: 200px;
+}
+
+.image-cell {
+    width: 200px;
+}
+
+.url-cell {
+    vertical-align: middle;
+}

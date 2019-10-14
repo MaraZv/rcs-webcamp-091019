@@ -84,8 +84,51 @@ p {
 
 .innerContainer.jumbo {
     text-align: center;
+    height: 500px;
 }
 
 .innerContainer.jumbo p {
     color: white;
+}
+
+.blueDivider {
+    height: 100px;
+    background-color: #2f7cc8;
+}
+
+.section2 {
+    background-color: transparent;
+}
+
+.date, .timerLeft {
+    font-family: "Open sans", sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+}
+
+.leftRow {
+    display: inline-block;
+    width: 39%;
+    line-height: 100px;
+}
+
+.timerLeftRow {
+    display: inline-block;
+    width: 59%;
+    line-height: 100px;
+}
+
+.timerLeftRow .column {
+    display: inline-block;
+}
+
+.timerLeftRow div {
+    line-height: initial;
+}
+
+.timerLeftRow .column {
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
